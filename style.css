@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.post {
+	width: 600px !important;
+	height: 100px !important;
+	border: 2px solid black;
+	line-height: 1.5;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.loader {
+  border: 5px solid #777;
+  border-top: 5px solid #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 10px;
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.result-box {
+	background-color: lightgrey;
+}
